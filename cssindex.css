@@ -1,0 +1,152 @@
+﻿/*Người Viết: Trần Phúc Thoại*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+#table_lon{
+	width: 100%;
+}
+/*tr1*/
+.table_lon_dau_trang{
+	width: 100%;
+}
+.table_lon_dau_trang tr td{
+	border: black solid 0px;
+}
+.table_lon_dau_trang tr td:nth-child(1){
+	width: 25%;
+}
+.table_lon_dau_trang tr td:nth-child(2){
+	width: 40%;
+	padding-left: 40px;
+}
+.table_lon_dau_trang tr td:nth-child(3){
+	width: 35%;
+}
+.table_lon_dau_trang tr:nth-child(1) img{
+	padding-left: 80px;
+}
+/*tìm kiếm*/
+.bang_tim_kiem{
+	width: 400px;
+	height: 30px;
+}
+.tim_kiem{
+	width: 70px;
+	height: 35px;
+	background-color: #A1E609;
+}
+.tim_kiem:hover{
+	background-color: #86c200;
+}
+/*liên hệ*/
+.icon_phone{
+	width: 40px;
+	padding-left: 100px;
+}
+.table_lien_he_dau tr td:nth-child(1){
+	text-align: right;
+}
+.table_lien_he_dau tr td:nth-child(2){
+	text-align: left;
+	padding: 0px 10px;
+}
+/*tr2*/
+.table_lon_tr_2{
+	background-color: #86c200;
+	text-align: center;
+} 
+.table_lon_tr_2 td ul{
+	list-style-type: none;
+} 
+.table_lon_tr_2 td ul li{
+	list-style-type: none;
+	display: inline-table;
+} 
+.table_lon_tr_2 td ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	font-size: 17px;
+	color: white;
+} 
+.table_lon_tr_2 td ul li a:hover{
+	color:  black;
+}
+/*tr3*/
+.anh_bia{
+	width: 100%
+}
+/*thân trang*/
+.table_lon_than{
+	width: 1200px;
+	margin: 0 auto;
+	border: black solid 0px;
+}
+/*khuyến mãi*/
+.khuyen_mai_tr_2 a img{
+	width: 218 px;
+	height: 300 px;
+}
+/*bonsai*/
+.table_lon_bonsai{
+	margin: 0 auto;
+
+}
+.table_lon_bonsai tr:nth-child(2) td{
+    border:#eddcdc solid 1px;
+	text-align: center;
+}
+.table_lon_bonsai tr td a img{
+	width: 180px;
+	height: 180px;
+	padding: 0px 25px;
+}
+.table_lon_bonsai tr td div{
+	font-size: 14px;
+	color: #5F6357;
+}
+.a_1{
+	text-decoration: none;
+	color: #20292B;
+}
+.a_1:hover{
+	color: #0057A3;
+	font-weight: bold;
+}
+.a_2{
+	background-color: #ACE827;
+	color: white;
+	padding: 4px 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+.a_2:hover{
+	background-color: #86c200;
+}
+h2{
+	color: #86c200;
+}
+/*chân trang*/
+.chan_trang_div_1{
+	width: 50%;
+	float: left;
+	text-align: center;
+	background-color: #3d3d3d;
+	height: 250px;
+	color: white;
+}
+.chan_trang_div_2{
+	width: 50%;
+	float: right;
+	text-align: center;
+	background-color: #3d3d3d;
+	height: 250px;
+	color: white;
+}
+.icon_1{
+	width: 50px;
+}
+#logo_chan_trang{
+	width: 220px;
+}
